@@ -1,8 +1,10 @@
 # Neon Harbor — Meridian Bay
 
-An original 2D top-down open-world crime game for the make.fun gta6-01
-bounty. Everything — the city, the story, the people, the sound — is invented;
-nothing is taken from any other game.
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/RahmaMaria/gta6-01/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/RahmaMaria/gta6-01/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
+Built for the [make.fun gta6-01 bounty](https://make.fun/bounty/gta6-01) — an original 2D top-down open-world crime game.
 
 ## The game
 
