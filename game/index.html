@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Neon Harbor — Meridian Bay: an original 2D top-down open-world crime game. Steal cars, outrun the Meridian Bay police, and work off Mara Voss's debt across five missions.">
+<meta name="theme-color" content="#0b0e1a">
+<title>Neon Harbor — Meridian Bay</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #0b0e1a;
+    overflow: hidden;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  #game {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    image-rendering: auto;
+    touch-action: none;
+  }
+  #fallback {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #e8ecff;
+    background: #0b0e1a;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<div id="fallback">Neon Harbor needs a browser with JavaScript and Canvas 2D enabled.</div>
+<script type="module" src="./src/main.js"></script>
+<script>
+  window.addEventListener("error", function () {
+    document.getElementById("fallback").style.display = "flex";
+  });
+</script>
+</body>
+</html>
